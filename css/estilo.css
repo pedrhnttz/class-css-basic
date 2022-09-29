@@ -1,0 +1,278 @@
+body{
+	background-color: #f3f5b5;
+	padding: 0px;
+}
+
+#container{
+	background-color: #f3f5b5;
+	color: #2b3b2b;
+	font-family: "Courier New", monospace;
+	padding-bottom: 20px;
+}
+
+#bottom{
+	width: 100%;
+	height: 80px;
+	background-color: #2b3b2b;
+	border: 1px solid #2b3b2b;
+	margin: 0px;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+#borda{
+	background-color: #f3f5b5;
+	border-width: 15px 12px 10px 8px;
+	border-style: outset dotted dashed outset;
+	border-color: #76db7d #576957 #6eb573 #567558;
+}
+
+#fonte{
+	border: 10px solid #2b3b2b;
+	background-color: #f3f5b5;
+	color: #2b3b2b;
+	font-family: "Courier New", monospace;
+}
+
+#tamanho{
+	border: 10px solid #2b3b2b;
+	background-color: #f3f5b5;
+	color: #2b3b2b;
+	font-family: "Courier New", monospace;
+}
+
+.tx-fixo{
+	font-size: 50px;
+}
+.tx-relativo{
+	font-size: 300%;
+}
+.tx-rtv-pai{
+	font-size: 2em;
+}
+
+#fundo{
+	border: 10px solid #2b3b2b;
+	color: #2b3b2b;
+	background-image: url('../imagens/bulls.png');
+	background-color: #f3f5b5;
+}
+
+.f-fixed div{
+	border: 10px solid #2b3b2b;
+	color: #2b3b2b;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: #f3f5b5;
+	background-size: 200px;
+	height: 350px;
+	width: 90%;
+	margin: 10px auto;				
+}
+
+#bb{
+	background-image: url(../imagens/bb.png);
+}
+#br{
+	background-image: url(../imagens/br.png);
+}
+#cc{
+	background-image: url(../imagens/cc.png);
+}
+#gt{
+	background-image: url(../imagens/gt.png);
+}
+#ldv{
+	background-image: url(../imagens/ldv.png);
+}
+#pc{
+	background-image: url(../imagens/pc.png);
+}
+#rlc{
+	background-image: url(../imagens/rlc.png);
+}
+#se{
+	background-image: url(../imagens/se.png);
+}
+
+.f-scroll{
+	border: 10px solid #2b3b2b;
+	color: #2b3b2b;
+	background-image: url('../imagens/bulls.png');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center;
+	background-color: #f3f5b5;
+	height: 350px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+#float-left{
+	border: 10px solid #2b3b2b;
+	color: #2b3b2b;
+	background-color: #f3f5b5;
+	margin-top: 20px;
+	width: 48%;
+	float: left;
+}
+
+#float-right{
+	border: 10px solid #2b3b2b;
+	color: #2b3b2b;
+	background-color: #f3f5b5;
+	margin-top: 20px;
+	width: 48%;
+	float: right;
+}
+
+#inlineblock{
+	border: 10px solid #2b3b2b;
+	margin-top: 20px;
+}
+
+.ebox{
+	border: 5px solid #2b3b2b;
+	height: 200px;
+	margin: 5px;
+	width: 80%%;
+}
+
+.einline{
+	border: 5px solid #2b3b2b;
+	margin: 60px 2%;
+	width: 40%;
+	display: inline-block;
+}
+
+.eblock{
+	border: 5px solid #2b3b2b;
+	margin: 30px auto;
+	width: 40%;
+	display: block;
+}
+
+#position{
+	border: 10px solid #2b3b2b;
+	margin-top: 20px;
+	position: relative;
+}
+
+.static{
+	border: 5px solid #2b3b2b;
+	margin: 5px;
+}
+
+.static p{
+	width: 70%;
+	margin: 0px auto;
+	border: 1px solid red;
+	position: static;
+}
+
+.relative{
+	border: 5px solid #2b3b2b;
+	margin: 5px;
+	margin-bottom: 30px;
+}
+
+.relative p{
+	width: 70%;
+	margin: 0px auto;
+	border: 1px solid red;
+	position: relative;
+	top: 20px;
+	right: 80px;
+}
+
+.absolute{
+	border: 5px solid #2b3b2b;
+	background-color: #f3f5b5;
+	margin: 5px;
+	width: 30%;
+	position: absolute;
+	right: 20%;
+	top: 30px;
+}
+
+.p-fixed{
+	border: 5px solid #2b3b2b;
+	background-color: #f3f5b5;
+	margin: 5px;
+	width: 30%;
+	/*position: fixed;
+	right: 10%;
+	bottom: 30px;*/
+}
+
+#sobrepor{
+	border: 10px solid #2b3b2b;
+	margin-top: 20px;
+	position: relative;
+	height: 200px;
+}
+
+.sobre1{
+	border: 5px solid #2b3b2b;
+	background-color: #f3f5b5;
+	padding: 20px;
+	width: 70%;
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	z-index: 1;
+}
+
+.sobre2{
+	border: 5px solid #2b3b2b;
+	background-color: #f3f5b5;
+	padding: 20px;
+	width: 70%;
+	position: absolute;
+	top: 50px;
+	right: 20px;
+	z-index: 3;
+}
+
+.sobre3{
+	border: 5px solid #2b3b2b;
+	background-color: #f3f5b5;
+	padding: 20px;
+	width: 30%;
+	height: 120px;
+	position: absolute;
+	top: 10px;
+	left: 400px;
+	z-index: 2;
+}
+
+.links{
+	border: 10px solid #2b3b2b;
+	margin-top: 20px;
+	position: relative;
+	height: 200px;
+}
+
+.links a{
+	text-decoration: none;
+	padding: 10px;
+	color: #2b3b2b;
+	font-family: "Courier New", monospace;
+	font-weight: bold;
+	margin: 20px;
+	font-size: 30px;
+}
+
+.links a:hover{
+	background-color: #2b3b2b;
+	color: #f3f5b5;
+}
+
+.links a:active{
+	background-color: #779e79;
+	color: #f3f5b5;
+}
